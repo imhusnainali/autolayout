@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,14 +21,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbi-DA-67k">
-                                <rect key="frame" x="66" y="119" width="151" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbi-DA-67k">
+                                <rect key="frame" x="26" y="323" width="160" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="N5L-fC-4Tf"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wk-yD-jyM">
-                                <rect key="frame" x="267" y="119" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wk-yD-jyM">
+                                <rect key="frame" x="189" y="323" width="160" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="ubE-Z0-DwP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,11 +42,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="1wk-yD-jyM" firstAttribute="leading" secondItem="fbi-DA-67k" secondAttribute="trailing" constant="50" id="10V-6a-api"/>
-                            <constraint firstItem="fbi-DA-67k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="DZN-Qz-OFc"/>
-                            <constraint firstItem="fbi-DA-67k" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="99" id="S8j-Qm-elV"/>
-                            <constraint firstItem="fbi-DA-67k" firstAttribute="baseline" secondItem="1wk-yD-jyM" secondAttribute="baseline" id="XXo-1m-m8k"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="1wk-yD-jyM" secondAttribute="trailing" constant="50" id="zr9-s9-mEz"/>
+                            <constraint firstAttribute="trailing" secondItem="1wk-yD-jyM" secondAttribute="trailing" constant="26" id="2wN-9f-mhe"/>
+                            <constraint firstItem="1wk-yD-jyM" firstAttribute="centerY" secondItem="fbi-DA-67k" secondAttribute="centerY" id="Ch4-x3-LSe"/>
+                            <constraint firstItem="fbi-DA-67k" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="303" id="J6r-pH-f7V"/>
+                            <constraint firstItem="fbi-DA-67k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="26" id="R0t-BL-vxF"/>
+                            <constraint firstItem="1wk-yD-jyM" firstAttribute="leading" secondItem="fbi-DA-67k" secondAttribute="trailing" constant="3" id="bVg-EA-Ukj"/>
                         </constraints>
                     </view>
                     <connections>
@@ -51,6 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="136.28185907046478"/>
         </scene>
     </scenes>
 </document>

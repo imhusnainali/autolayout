@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.labelOne.text = "Husnain"
-        self.labelTwo.text = "Husnain"
+        self.labelOne.text = "Developer clans"
+        self.labelTwo.text = "iOS developer"
     }
 
     override func didReceiveMemoryWarning() {
